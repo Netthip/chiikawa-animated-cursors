@@ -1,68 +1,96 @@
-# Chiikawa Animated Cursors 🩷
+# Chiikawa & Kurimanju Animated Cursors 🩷🌰
 
-เคอร์เซอร์ชิกาว่าและคุริมันจูขยับได้สำหรับ Windows 10 / 11 และ macOS (ผ่าน Mousecape)
+เคอร์เซอร์เมาส์ขยับได้สำหรับเพื่อนตัวเล็กบนหน้าจอ — มีทั้งชิกาว่าและคุริมันจู พร้อมท่าทางที่แตกต่างกันตามการใช้งาน
 
-## Animated Friends v3 — ใหม่ / New
+Cute animated desktop cursors for Windows 10/11 and macOS (via Mousecape). An unofficial personal-use fan project.
 
-### Compact Size 1 — แนะนำสำหรับ Windows ที่ไม่ต้องการเพิ่มขนาดเมาส์
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-ffb8d1?style=flat-square) ![macOS](https://img.shields.io/badge/macOS-Mousecape-e6c592?style=flat-square) ![Version](https://img.shields.io/badge/Version-v3%20Beta-f8c6d6?style=flat-square)
 
-| Chiikawa Compact 🩷 | Kurimanju Compact 🌰 |
-|---|---|
-| ![Chiikawa Compact preview](v3/compact/Chiikawa_Preview.gif) | ![Kurimanju Compact preview](v3/compact/Kurimanju_Preview.gif) |
-| [Download Chiikawa Compact (.zip)](v3/compact/Chiikawa_Compact_Size1.zip) | [Download Kurimanju Compact (.zip)](v3/compact/Kurimanju_Compact_Size1.zip) |
+## ดาวน์โหลด · Download
 
-- Native 32 × 32 px, optimized for Windows pointer **Size 1**. Larger character proportions, stronger contrast, and smaller pointer symbols help retain readable eyes and outlines at the actual displayed size.
-- 17 roles, 3 alternate normal pointers, animated ANI and static CUR files with transparent backgrounds and fixed hotspots.
-- Extract the ZIP and run `Install.cmd` to install all 17 roles and set Size 1. `Restore.cmd` restores the pre-v3 cursor values, including pointer size if backed up. Both Compact packages share the v3 backup so switching characters does not overwrite the original cursor settings.
-- Chiikawa's normal pointer is the exact Compact sample that was tested by Gift on a 27-inch display and reported clearer. All 17 Chiikawa Compact roles were installed and their active paths verified at pointer size 1. All 80 Compact cursor files passed native Windows loading and structural checks. The other roles, Kurimanju live display, and restore have not yet been exhaustively tested.
+เลือกตัวละครและรุ่นที่เหมาะกับการใช้งานได้เลย ทั้งสองตัวมี 17 สถานะของ Windows และลูกศรพิเศษอีก 3 แบบใน v3/Compact
 
-### Standard v3 — 96 / 128 px and macOS
+| Edition | Chiikawa 🩷 | Kurimanju 🌰 |
+| :--- | :---: | :---: |
+| **Compact · Size 1** (32 px, Windows) ⭐ Recommended | [Download ZIP](v3/compact/Chiikawa_Compact_Size1.zip?raw=true) | [Download ZIP](v3/compact/Kurimanju_Compact_Size1.zip?raw=true) |
+| **Standard v3** (96 / 128 px, Windows + macOS) | [Download ZIP](v3/Chiikawa_Animated_Friends_v3.zip?raw=true) | [Download ZIP](v3/Kurimanju_Animated_Friends_v3.zip?raw=true) |
+| **Legacy v2** (32 / 48 / 64 px, Windows) | [Download ZIP](Chiikawa_Animated_Cursors_v2.zip?raw=true) | — |
 
-| Chiikawa 🩷 | Kurimanju 🌰 |
-|---|---|
-| ![Chiikawa animated preview](v3/Chiikawa_Preview.gif) | ![Kurimanju animated preview](v3/Kurimanju_Preview.gif) |
-| [Download Chiikawa v3 (.zip)](v3/Chiikawa_Animated_Friends_v3.zip) | [Download Kurimanju v3 (.zip)](v3/Kurimanju_Animated_Friends_v3.zip) |
+> **แนะนำ:** ถ้าใช้ขนาดเมาส์ (Size) ระดับ 1 บน Windows ให้เลือก **Compact** ก่อน น้องตัวใหญ่ขึ้นในพื้นที่เดิม เส้นและดวงตาชัดขึ้น โดยไม่ต้องเพิ่มขนาดเคอร์เซอร์ของระบบ
 
-- 17 Windows cursor roles, each with a different character pose and role-specific pointer symbol.
-- 96 × 96 px (medium) and 128 × 128 px (large); each size also includes three alternate normal pointers.
-- 12-frame animations with gentle bounce, tilt, squash, or rocking. Click hotspots stay fixed.
-- Animated `.ani` and static `.cur` files for Windows, plus two `.cape` files for macOS using [Mousecape](https://github.com/alexzielenski/Mousecape).
-- Transparent backgrounds, animated previews, pose sheets, and installation/restore instructions inside each ZIP.
+## ตัวอย่าง · Previews
 
-### ติดตั้ง v3 / Install v3
+### Compact — Windows Size 1
 
-**Windows:** แตก ZIP แล้วเลือก `Windows/96` หรือ `Windows/128` จากนั้นเปิด `Install.cmd` ไม่ต้องใช้สิทธิ์ Administrator ใช้ `Windows/Restore.cmd` เพื่อคืนค่าก่อนติดตั้ง v3 ครั้งแรก ทั้งสองชุดใช้ข้อมูลสำรองร่วมกัน จึงสลับตัวละครได้โดยไม่เสียข้อมูลเคอร์เซอร์เดิม
+| Chiikawa | Kurimanju |
+| :---: | :---: |
+| <img src="v3/compact/Chiikawa_Preview.gif" width="360" alt="Chiikawa Compact animated cursors"> | <img src="v3/compact/Kurimanju_Preview.gif" width="360" alt="Kurimanju Compact animated cursors"> |
 
-**macOS:** ติดตั้ง [Mousecape](https://github.com/alexzielenski/Mousecape/releases) และ Helper ตามคู่มือ เปิดไฟล์ `.cape` ในโฟลเดอร์ `macOS` จากนั้น Apply. การรองรับขึ้นอยู่กับ macOS และ Mousecape รุ่นที่ใช้งาน
+<details>
+<summary>ดู Standard v3 · View 96 / 128 px previews</summary>
 
-**Verification:** Both standard v3 ZIPs passed integrity checks. All 160 Windows `.ani` and `.cur` files (including bonus variants) loaded successfully through the native Windows cursor loader. ANI structure, frame counts, hotspots, alpha masks, and PowerShell script syntax were checked. The four Mousecape plists and their animation image strips were structurally validated. Chiikawa was installed on Windows and tested on 14- and 27-inch displays; Windows rendered the 128 px source at a 32 px actual cursor size when Size 1 was selected. The Compact edition addresses that situation. Exhaustive live playback, restore, and Mac compatibility remain untested. Displayed cursor size may vary with OS scaling or application behavior.
+| Chiikawa | Kurimanju |
+| :---: | :---: |
+| <img src="v3/Chiikawa_Preview.gif" width="360" alt="Chiikawa standard animated cursors"> | <img src="v3/Kurimanju_Preview.gif" width="360" alt="Kurimanju standard animated cursors"> |
 
-## Chiikawa v2 — เวอร์ชันก่อนหน้า / Previous version
+</details>
 
-![ตัวอย่างเคอร์เซอร์ 17 แบบ](Chiikawa_Preview.gif)
+<details>
+<summary>ดูเวอร์ชันเดิม · Legacy v2 preview</summary>
 
-### ดาวน์โหลด / Download v2
+<img src="Chiikawa_Preview.gif" width="600" alt="Chiikawa animated cursors v2">
 
-[**Chiikawa Animated Cursors V2 (.zip)**](https://github.com/Netthip/chiikawa-animated-cursors/raw/refs/heads/main/Chiikawa_Animated_Cursors_v2.zip)
+</details>
 
-- 17 Windows cursor roles × 3 sizes (32, 48, 64 px)
-- 51 animated `.ani` files with 8 frames each, plus 51 static `.cur` alternatives
-- Transparent backgrounds and role-specific pink pointer symbols
-- Install and restore scripts; no background app required
+## สิ่งที่มีในชุด · What's included
 
-### วิธีติดตั้ง / Installation v2
+- **17 cursor roles:** ลูกศรปกติ, เลือกข้อความ, รอโหลด, เลือกลิงก์, ย้ายและปรับขนาดหน้าต่าง ฯลฯ พร้อมท่าทางเฉพาะแต่ละสถานะใน v3/Compact
+- **12-frame animations** ใน v3/Compact: เด้งตัว เอียงตัว และขยับเบา ๆ โดยจุดคลิกไม่เปลี่ยน
+- **3 bonus normal pointers** ต่อขนาด เช่น โบว์ ผ้าพันคอ หมวกนอน หรือจิบชา
+- พื้นหลังโปร่งใส ไฟล์เคลื่อนไหว `.ani` และภาพนิ่ง `.cur` สำหรับ Windows
+- ไฟล์ `.cape` สำหรับ Mousecape ใน Standard v3 พร้อมภาพตัวอย่างและคู่มือการติดตั้ง
 
-1. ดาวน์โหลด ZIP และแตกไฟล์ทั้งหมด (Extract All)
-2. เปิดโฟลเดอร์ขนาดที่ต้องการ: `32`, `48` (แนะนำ) หรือ `64`
-3. ดับเบิลคลิก `Install.cmd` เพื่อใช้ชุดเคอร์เซอร์ ไม่ต้องใช้สิทธิ์ Administrator
-4. หากต้องการกลับไปใช้เคอร์เซอร์ก่อนติดตั้ง ให้เปิด `Restore.cmd` ในโฟลเดอร์หลัก
+## วิธีติดตั้ง · Installation
 
-หากไม่ต้องการเรียกสคริปต์ ให้เปิด Windows Mouse Properties → Pointers แล้วเลือกไฟล์ `.ani` หรือ `.cur` ให้ตรงกับแต่ละสถานะ ดูรายละเอียดใน `README.txt` ภายใน ZIP
+### Windows 10 / 11
 
-### Verification v2
+1. ดาวน์โหลด ZIP ของตัวละครที่ชอบ แล้ว **แตกไฟล์ทั้งหมด (Extract All)** ก่อน
+2. **Compact:** เปิด `Install.cmd` ที่โฟลเดอร์หลัก ตัวติดตั้งจะตั้งค่า Windows pointer Size 1 (32 px) และเปลี่ยนทั้ง 17 สถานะ
+3. **Standard:** เลือก `Windows/96` หรือ `Windows/128` แล้วเปิด `Install.cmd` (สำหรับ v2 เลือก `32`, `48` หรือ `64`)
+4. ไม่ต้องใช้สิทธิ์ Administrator หากไม่เปลี่ยนทันที ให้ Sign out แล้ว Sign in ใหม่
 
-All 102 cursor files passed a read-only native Windows loading check. The ZIP contents and PowerShell syntax were also checked. Live Windows animation playback, actual installation/restore, and per-app behavior have not yet been tested. All roles reuse the same approved eight-frame hopping animation; the pointer symbols and hotspots distinguish each role.
+หากต้องการเปลี่ยนเฉพาะลูกศรปกติหรือเลือกแบบในโฟลเดอร์ `Bonus` ให้เปิด **Mouse Properties → Pointers → Normal select → Browse** แล้วเลือกไฟล์ `.ani` หรือ `.cur`
 
-## Fan project
+คุณสามารถตรวจขนาดเมาส์ได้ที่ **Settings → Accessibility → Mouse pointer and touch → Size** ขนาดจริงบนจอขึ้นอยู่กับการตั้งค่าและความละเอียดหน้าจอ ไม่จำเป็นต้องตรงกับขนาดไฟล์ต้นฉบับเสมอไป
 
-Unofficial, non-commercial fan project made for personal use. Chiikawa and its character rights belong to their respective rights holders. This project is not affiliated with or endorsed by the character's creators. No license to the underlying character artwork is granted by this repository.
+### macOS · Mousecape
+
+1. ดาวน์โหลด **Standard v3** และติดตั้ง [Mousecape](https://github.com/alexzielenski/Mousecape/releases) พร้อม Helper Tool ตามคู่มือของโปรแกรม
+2. เปิดไฟล์ `.cape` จากโฟลเดอร์ `macOS` และเลือกขนาด 96 หรือ 128
+3. กด **Apply**
+
+การรองรับขึ้นอยู่กับ macOS และ Mousecape ที่ใช้งาน (Compact และ Legacy เป็นรุ่นสำหรับ Windows เท่านั้น)
+
+### คืนค่า · Restore
+
+- Compact: เปิด `Restore.cmd` ในโฟลเดอร์หลัก
+- Standard: เปิด `Windows/Restore.cmd`
+- Legacy v2: เปิด `Restore.cmd` ในโฟลเดอร์หลัก
+
+v3/Compact ใช้ข้อมูลสำรองร่วมกันเพื่อให้สลับตัวละครได้โดยไม่ทับค่าก่อนติดตั้งครั้งแรก ส่วน macOS ให้ใช้ตัวเลือกคืนค่าเริ่มต้นใน Mousecape
+
+## สถานะการทดสอบ · Verification
+
+| Check | Status |
+| :--- | :--- |
+| ZIP integrity, native Windows cursor loading, ANI/CUR structure and alpha masks | ✅ Passed (240 v3/Compact files) |
+| Chiikawa Compact normal pointer on a 27-inch monitor | ✅ User confirmed clearer eyes and outlines |
+| Chiikawa Compact installation at Windows Size 1 | ✅ All 17 active cursor paths verified |
+| Mousecape `.cape` and animation strips | ✅ Structurally validated |
+| All roles in live use, restore, Kurimanju display and macOS compatibility | ⏳ Not yet exhaustively tested |
+
+Legacy v2: all 102 cursor files passed read-only native Windows loading and ZIP integrity checks. Live playback and restore have not been verified exhaustively.
+
+## About
+
+Unofficial, non-commercial fan art for personal use. Chiikawa and Kurimanju and their rights belong to their respective rights holders. This project is not affiliated with or endorsed by the character creators. No license to the underlying character artwork is granted.

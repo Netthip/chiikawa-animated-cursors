@@ -4,6 +4,20 @@
 
 ## Animated Friends v3 — ใหม่ / New
 
+### Compact Size 1 — แนะนำสำหรับ Windows ที่ไม่ต้องการเพิ่มขนาดเมาส์
+
+| Chiikawa Compact 🩷 | Kurimanju Compact 🌰 |
+|---|---|
+| ![Chiikawa Compact preview](v3/compact/Chiikawa_Preview.gif) | ![Kurimanju Compact preview](v3/compact/Kurimanju_Preview.gif) |
+| [Download Chiikawa Compact (.zip)](v3/compact/Chiikawa_Compact_Size1.zip) | [Download Kurimanju Compact (.zip)](v3/compact/Kurimanju_Compact_Size1.zip) |
+
+- Native 32 × 32 px, optimized for Windows pointer **Size 1**. Larger character proportions, stronger contrast, and smaller pointer symbols help retain readable eyes and outlines at the actual displayed size.
+- 17 roles, 3 alternate normal pointers, animated ANI and static CUR files with transparent backgrounds and fixed hotspots.
+- Extract the ZIP and run `Install.cmd` to install all 17 roles and set Size 1. `Restore.cmd` restores the pre-v3 cursor values, including pointer size if backed up. Both Compact packages share the v3 backup so switching characters does not overwrite the original cursor settings.
+- Chiikawa's normal pointer is the exact Compact sample that was tested by Gift on a 27-inch display and reported clearer. All 17 Chiikawa Compact roles were installed and their active paths verified at pointer size 1. All 80 Compact cursor files passed native Windows loading and structural checks. The other roles, Kurimanju live display, and restore have not yet been exhaustively tested.
+
+### Standard v3 — 96 / 128 px and macOS
+
 | Chiikawa 🩷 | Kurimanju 🌰 |
 |---|---|
 | ![Chiikawa animated preview](v3/Chiikawa_Preview.gif) | ![Kurimanju animated preview](v3/Kurimanju_Preview.gif) |
@@ -21,7 +35,7 @@
 
 **macOS:** ติดตั้ง [Mousecape](https://github.com/alexzielenski/Mousecape/releases) และ Helper ตามคู่มือ เปิดไฟล์ `.cape` ในโฟลเดอร์ `macOS` จากนั้น Apply. การรองรับขึ้นอยู่กับ macOS และ Mousecape รุ่นที่ใช้งาน
 
-**Verification:** Both v3 ZIPs passed integrity checks. All 160 Windows `.ani` and `.cur` files (including bonus variants) loaded successfully through the native Windows cursor loader. ANI structure, frame counts, hotspots, alpha masks, and PowerShell script syntax were checked. The four Mousecape plists and their animation image strips were structurally validated. Actual scheme installation, live animation, restore, and Mac compatibility have not been tested on a running desktop. Displayed cursor size may vary with OS scaling or application behavior.
+**Verification:** Both standard v3 ZIPs passed integrity checks. All 160 Windows `.ani` and `.cur` files (including bonus variants) loaded successfully through the native Windows cursor loader. ANI structure, frame counts, hotspots, alpha masks, and PowerShell script syntax were checked. The four Mousecape plists and their animation image strips were structurally validated. Chiikawa was installed on Windows and tested on 14- and 27-inch displays; Windows rendered the 128 px source at a 32 px actual cursor size when Size 1 was selected. The Compact edition addresses that situation. Exhaustive live playback, restore, and Mac compatibility remain untested. Displayed cursor size may vary with OS scaling or application behavior.
 
 ## Chiikawa v2 — เวอร์ชันก่อนหน้า / Previous version
 

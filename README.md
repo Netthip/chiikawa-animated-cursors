@@ -13,13 +13,16 @@ Cute animated desktop cursors for Windows 10/11 and macOS (via MaCursor, or lega
 | Edition | Chiikawa 🩷 | Kurimanju 🌰 |
 | :--- | :---: | :---: |
 | **Compact · Size 1** (32 px, Windows) ⭐ Recommended | [Download ZIP](v3/compact/Chiikawa_Compact_Size1.zip?raw=true) | [Download ZIP](v3/compact/Kurimanju_Compact_Size1.zip?raw=true) |
-| **MaCursor v3.1 Beta** (modern macOS) 🍎 Recommended for Mac | [Download ZIP](v3/macos/Chiikawa_MaCursor_v3.zip?raw=true) | [Download ZIP](v3/macos/Kurimanju_MaCursor_v3.zip?raw=true) |
+| **MaCursor v3.2 Retina Beta** (modern macOS) 🍎 Recommended for Mac | [Download ZIP](v3/macos/Chiikawa_MaCursor_v3_2.zip?raw=true) | [Download ZIP](v3/macos/Kurimanju_MaCursor_v3_2.zip?raw=true) |
+| **Typing Stable** (optional Windows Text Select add-on) | [Download ZIP](v3/compact/Chiikawa_Typing_Stable_Test.zip?raw=true) | — |
 | **Standard v3** (96 / 128 px, Windows + legacy Mousecape) | [Download ZIP](v3/Chiikawa_Animated_Friends_v3.zip?raw=true) | [Download ZIP](v3/Kurimanju_Animated_Friends_v3.zip?raw=true) |
 | **Legacy v2** (32 / 48 / 64 px, Windows) | [Download ZIP](Chiikawa_Animated_Cursors_v2.zip?raw=true) | — |
 
 > **แนะนำ:** ถ้าใช้ขนาดเมาส์ (Size) ระดับ 1 บน Windows ให้เลือก **Compact** ก่อน น้องตัวใหญ่ขึ้นในพื้นที่เดิม เส้นและดวงตาชัดขึ้น โดยไม่ต้องเพิ่มขนาดเคอร์เซอร์ของระบบ
 
-> **Mac รุ่นใหม่:** ใช้ MaCursor v3.1 Beta แทน Mousecape ซึ่งอาจใช้งานไม่ได้บน macOS รุ่นใหม่ ธีม MaCursor ได้ตรวจโครงสร้างไฟล์แล้วและกำลังรอทดสอบบนเครื่อง Mac จริง
+> **Mac รุ่นใหม่:** ใช้ **MaCursor v3.2 Retina Beta** แทน Mousecape รุ่นเดิม v3.2 วาดสัญลักษณ์เมาส์ใหม่สำหรับจอ Retina โดยตรง ไม่ขยายภาพพิกเซลต่ำแบบ v3.1 และเพิ่ม 10x representation เพื่อรองรับการขยายขนาดภายใน MaCursor โดยไม่ต้องเปลี่ยนการตั้งค่า macOS
+
+> **พิมพ์งานบ่อย:** Typing Stable เป็นตัวเลือกทดลองเฉพาะ Text Select (IBeam) แบบนิ่ง ส่วนเคอร์เซอร์อื่นยังเคลื่อนไหวเหมือนเดิม
 
 ## ตัวอย่าง · Previews
 
@@ -28,6 +31,17 @@ Cute animated desktop cursors for Windows 10/11 and macOS (via MaCursor, or lega
 | Chiikawa | Kurimanju |
 | :---: | :---: |
 | <img src="v3/compact/Chiikawa_Preview.gif" width="360" alt="Chiikawa Compact animated cursors"> | <img src="v3/compact/Kurimanju_Preview.gif" width="360" alt="Kurimanju Compact animated cursors"> |
+
+### MaCursor — Retina v3.2
+
+<img src="v3/macos/Retina_Hand_Comparison.png" width="670" alt="MaCursor v3.1 pixelated hand compared with v3.2 smooth high-resolution hand">
+
+<details>
+<summary>รุ่น MaCursor v3.1 ก่อนหน้า · Previous Mac version (fallback)</summary>
+
+[Chiikawa v3.1 ZIP](v3/macos/Chiikawa_MaCursor_v3.zip?raw=true) · [Kurimanju v3.1 ZIP](v3/macos/Kurimanju_MaCursor_v3.zip?raw=true)
+
+</details>
 
 <details>
 <summary>ดู Standard v3 · View 96 / 128 px previews</summary>
@@ -51,7 +65,7 @@ Cute animated desktop cursors for Windows 10/11 and macOS (via MaCursor, or lega
 - **12-frame animations** ใน v3/Compact: เด้งตัว เอียงตัว และขยับเบา ๆ โดยจุดคลิกไม่เปลี่ยน
 - **3 bonus normal pointers** ต่อขนาด เช่น โบว์ ผ้าพันคอ หมวกนอน หรือจิบชา
 - พื้นหลังโปร่งใส ไฟล์เคลื่อนไหว `.ani` และภาพนิ่ง `.cur` สำหรับ Windows
-- ไฟล์ `.cursor` สำหรับ [MaCursor](https://github.com/writronic/MaCursor) โดยตรง (45 cursor identifiers, including modern macOS aliases, 32-point geometry and 1x / 2x / 5x representations)
+- ไฟล์ `.cursor` สำหรับ [MaCursor](https://github.com/writronic/MaCursor) โดยตรง (45 cursor identifiers, including modern macOS aliases, 32-point geometry and 1x / 2x / 5x / 10x Retina representations in v3.2)
 - ไฟล์ `.cape` สำหรับ Mousecape รุ่นเดิมใน Standard v3 พร้อมภาพตัวอย่างและคู่มือการติดตั้ง
 
 ## วิธีติดตั้ง · Installation
@@ -67,14 +81,16 @@ Cute animated desktop cursors for Windows 10/11 and macOS (via MaCursor, or lega
 
 คุณสามารถตรวจขนาดเมาส์ได้ที่ **Settings → Accessibility → Mouse pointer and touch → Size** ขนาดจริงบนจอขึ้นอยู่กับการตั้งค่าและความละเอียดหน้าจอ ไม่จำเป็นต้องตรงกับขนาดไฟล์ต้นฉบับเสมอไป
 
+**Typing Stable (optional):** แตก ZIP ตัวเสริมและเปิด `Install.cmd` เพื่อเปลี่ยนเฉพาะ Text Select เป็นภาพนิ่ง เปิด `Restore.cmd` ของตัวเสริมเพื่อคืนค่า Text Select เดิม หากเมาส์หายขณะพิมพ์ ให้ตรวจ **Mouse Properties → Pointer Options → Hide pointer while typing** และยกเลิกการเลือกหากต้องการให้เมาส์ยังแสดงอยู่ ตัวเสริมไม่เปลี่ยนการตั้งค่านี้โดยอัตโนมัติ และบางแอปอาจซ่อนเมาส์เองได้
+
 ### macOS · MaCursor (แนะนำ / Recommended)
 
-1. ดาวน์โหลด **MaCursor v3.1 Beta** ของตัวละครที่ชอบ แล้วแตก ZIP
+1. ดาวน์โหลด **MaCursor v3.2 Retina Beta** ของตัวละครที่ชอบ แล้วแตก ZIP
 2. ดาวน์โหลด [MaCursor](https://github.com/writronic/MaCursor/releases) จากผู้พัฒนาและติดตั้ง Helper Tool ตามขั้นตอนในแอป
 3. เปิดไฟล์ `.cursor` หรือเลือก **File → Import Theme** แล้วกด **Apply**
-4. ปรับ **Cursor Scale** ตามต้องการ (เริ่มที่ 1x)
+4. ปรับ **Cursor Scale** ภายใน MaCursor ตามต้องการ (เริ่มที่ 1x) ไม่จำเป็นต้องเปลี่ยนการตั้งค่าขนาดเมาส์ใน macOS
 
-MaCursor ระบุรองรับ macOS 13 ขึ้นไป รวมถึง macOS 26 Tahoe และ macOS 27 Golden Gate ใน [README ของโครงการ](https://github.com/writronic/MaCursor). ธีมของเรายังเป็น Beta จนกว่าจะทดสอบบน Mac จริง
+MaCursor ระบุรองรับ macOS 13 ขึ้นไป รวมถึง macOS 26 Tahoe และ macOS 27 Golden Gate ใน [README ของโครงการ](https://github.com/writronic/MaCursor). ผู้ใช้ Mac สามารถเปิดธีม v3.1 ได้แล้ว แต่พบสัญลักษณ์มือแตกเป็นพิกเซลเมื่อขยาย จึงแก้ใน v3.2; รุ่นใหม่ยังรอทดสอบจริง
 
 ### macOS · Legacy Mousecape (ทางเลือกสำหรับรุ่นเดิม)
 
@@ -100,8 +116,10 @@ v3/Compact ใช้ข้อมูลสำรองร่วมกันเพ
 | Chiikawa Compact normal pointer on a 27-inch monitor | ✅ User confirmed clearer eyes and outlines |
 | Chiikawa Compact installation at Windows Size 1 | ✅ All 17 active cursor paths verified |
 | Mousecape `.cape` and animation strips | ✅ Structurally validated |
-| MaCursor `.cursor` themes, slots, hotspots and 1x/2x/5x image strips | ✅ Structurally validated against MaCursor's source schema |
-| All roles in live use, restore, Kurimanju display and macOS import/apply/playback | ⏳ Not yet exhaustively tested |
+| MaCursor `.cursor` themes, slots, hotspots and 1x/2x/5x/10x image strips | ✅ Structurally validated; v3.2 redrawn high-resolution symbols |
+| MaCursor v3.1 real-world feedback | ✅ Imported and displayed on Mac; pixelated hand prompted v3.2 |
+| Typing Stable IBeam add-on | ✅ Uses the verified Compact first frame; installer syntax checked |
+| v3.2 Mac import/apply/playback, Typing Stable live use and restore | ⏳ Awaiting user testing |
 
 Legacy v2: all 102 cursor files passed read-only native Windows loading and ZIP integrity checks. Live playback and restore have not been verified exhaustively.
 

@@ -16,3 +16,5 @@ The higher the pixel size, the larger the character is designed to appear, while
 像素数值越大，鼠标指针中的角色就越大，同时保持原有的比例和细节。
 
 Actual displayed size depends on cursor scaling and display settings. On the test computer, Windows displayed the 128 px source at 32 px with the pointer slider at Size 1. The native Compact normal pointer was tested on a 27-inch display and reported clearer; all 17 Chiikawa Compact roles were then installed and their paths verified. All Compact files passed native loading and structural validation. Full per-role live playback, restore, Kurimanju live display and macOS compatibility remain untested. Existing V2 remains unchanged.
+
+For modern macOS, MaCursor v3.1 Beta uses a 32-point theme with 32/64/160 px (1x/2x/5x) representations. Cursor Scale can be adjusted within [MaCursor](https://github.com/writronic/MaCursor). The native `.cursor` files have passed structural validation against the project's schema; actual Mac import, apply, and animation remain to be tested.
